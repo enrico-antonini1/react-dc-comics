@@ -1,26 +1,27 @@
 export default function Footer() {
     return <footer>
-        <div className="bg-primary">
+        <div className="bg-primary footer-navbar">
             <div className="container">
                 <ul className="white d-flex justify-content-between">
                     <li>
-                        <img src="" alt="" />
+                        <img src="/buy-comics-digital-comics.png" alt=""/>
                         <span>DIGITAL COMICS</span>
                     </li>
                      <li>
-                        <img src="" alt="" />
+                        <img src="/buy-comics-merchandise.png" alt="" />
                         <span>DC MERCHANDISE</span>
                     </li>
                      <li>
-                        <img src="" alt="" />
+                        <img src="/buy-comics-shop-locator.png" alt="" />
                         <span>SUBSCRIPTION</span>
                     </li>
                      <li>
-                        <img src="" alt="" />
+                        
+                        <img src="/buy-comics-subscriptions.png" alt="" />
                         <span>COMIC SHOP LOCATOR</span>
                     </li>
                     <li>
-                        <img src="" alt="" />
+                        <img src="/buy-dc-power-visa.svg" alt="" />
                         <span>DC POWER VISA</span>
                     </li>
                 </ul>
