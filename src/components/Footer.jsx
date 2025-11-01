@@ -1,8 +1,8 @@
 export default function Footer() {
     return <footer>
-        <div className="bg-primary footer-navbar">
+        <div className="bg-primary footer-navbar ">
             <div className="container">
-                <ul className="white d-flex justify-content-between">
+                <ul className="white d-flex justify-content-between footer-link">
                     <li>
                         <img src="/buy-comics-digital-comics.png" alt=""/>
                         <span>DIGITAL COMICS</span>
@@ -37,13 +37,13 @@ export default function Footer() {
                 </button>
                 <div className="d-flex align-items-center">
                     <span className="followus">FOLLOW US</span>
-                    <ul className="d-flex align-items-center gap-3 mb-0">
-                        <li><a href="">Ciao</a>                     
+                    <ul className="d-flex align-items-center gap-3 mb-0 footer-social">
+                        <li><a href=""><img src="/footer-facebook.png" alt="" /></a>                     
                         </li>
-                        <li><a href="">Ciao</a></li>
-                        <li><a href="">Ciao</a></li>
-                        <li><a href="">Ciao</a></li>
-                        <li><a href="">Ciao</a></li>
+                        <li><a href=""><img src="/footer-twitter.png" alt="" /></a></li>
+                        <li><a href=""><img src="/footer-youtube.png" alt="" /></a></li>
+                        <li><a href=""><img src="/footer-pinterest.png" alt="" /></a></li>
+                        <li><a href=""><img src="/footer-periscope.png" alt="" /></a></li>
                     </ul>
                 </div>
             </div>

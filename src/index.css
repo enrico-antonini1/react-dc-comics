@@ -57,6 +57,11 @@ main {
     align-items: center;
 }
 
-li img {
+.footer-link img {
     height: 50px;
 }
+
+.footer-social img {
+    height: 30px;
+}
+
